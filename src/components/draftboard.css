@@ -1,0 +1,88 @@
+.draftboard {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team {
+    margin-bottom: 30px;
+}
+
+.team h3 {
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.player {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.player img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.player h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.player p {
+    font-size: 14px;
+    color: #666;
+}
+
+.player h2 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.team-1 {
+    background-color: #e8f7ff;
+}
+
+.team-2 {
+    background-color: #f7e8ff;
+}
+
+.team-3 {
+    background-color: #ffe8e8;
+}
+form button[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #16a085; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form button[type="submit"]:hover {
+    transform: translateY(-2px); 
+}
+
+form button[type="submit"]:focus {
+    outline: 3px solid #1e7e34; 
+}

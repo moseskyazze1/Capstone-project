@@ -72,3 +72,21 @@
   text-align: center;
   grid-column: span 2; 
 }
+.save-button-container {
+  margin-top: 20px; 
+}
+
+.save-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #16a085; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.save-button:hover {
+  transform: translateY(-2px);
+}

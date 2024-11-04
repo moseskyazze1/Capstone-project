@@ -75,7 +75,7 @@
     font-weight: normal;
   }
   
-.pick-btn {
+.pick-btn, .picked-players button  {
   margin-top: 15px;
   padding: 10px 20px;
   font-size: 16px;

@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import './Team.css';
 
 function Team() {
     const location = useLocation();
-    const pickedPlayers = location.state?.pickedPlayers || []; 
+    const pickedPlayers = location.state?.pickedPlayers || [];
+    
+    
+    const [savedTeam, setSavedTeam] = useState(null);
+
+    const saveTeam = () => {
+    
+        localStorage.setItem('savedTeam', JSON.stringify(pickedPlayers));
+        setSavedTeam(pickedPlayers);
+        alert("Your team has been saved!");
+    };
 
     return (
         <div className="team">
@@ -22,6 +32,13 @@ function Team() {
                 ) : (
                     <p>No players picked yet!</p>
                 )}
+            </div>
+
+            <div className="save-button-container">
+                <button onClick={saveTeam} className="save-button">
+                    Save Team
+                </button>
+               
             </div>
         </div>
     );

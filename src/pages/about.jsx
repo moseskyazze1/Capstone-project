@@ -1,20 +1,19 @@
-
 import React from 'react';
-import './About.css'; // Import the CSS for styling
+import './About.css'; 
 
 function About() {
   const posts = [
     {
       title: "Draft your team",
-      content: "Join a league then pick your players, or let us use our expert rankings to draft for you.",
+      content: "Player_1 selects first followed by Player_2 then Player_3.",
     },
     {
       title: "Set your lineup",
-      content: "Pick your starting lineup, or let the Optimize Lineup feature do the work.",
+      content: "First player selected goes to Player_1, second player goes to Player_2 then third player goes to Player_3.",
     },
     {
-      title: "Watch them win",
-      content: "Play alongside your team, watch live highlights, and talk trash to your opponents.",
+      title: "Confirm teams",
+      content: "Keep drafting until each player has at least 8 players selected then check them out on the draftboard.",
     },
   ];
 
