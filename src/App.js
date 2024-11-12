@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Team from './components/Team';
 import Draftboard from './components/draftboard'; 
 import Rankings from './components/rankings';
+import Terms from './components/terms';  // Import the Terms component
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contact" element={<Team />} />
           <Route path="/draftboard" element={<Draftboard />} />
           <Route path="/rankings" element={<Rankings />} />
+          <Route path="/terms" element={<Terms />} />  {/* Add route for Terms of Service */}
         </Routes>
         <Footer />
       </div>

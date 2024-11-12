@@ -37,9 +37,13 @@
   text-decoration: underline;
 }
 
-
 .footer-links a svg {
   margin-right: 8px; 
   width: 24px; 
   height: 24px; 
+}
+
+/* Push the Terms of Service link to the far right */
+.footer-links .terms-link {
+  margin-left: auto;  /* This pushes the Terms link to the far right */
 }
